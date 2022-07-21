@@ -32,7 +32,7 @@ This project is organized into three stages with 9 components per stage.
 #### Stage x Component Task Tracking Matrix
 
     | D1| D2| D3|
-|:- |:- |:- |:- |
+|:--|:--|:--|:--|
 Port|   |   |   |
 Plan| / |   |   |
 Hand|   |   |   |
