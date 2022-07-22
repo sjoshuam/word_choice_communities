@@ -4,8 +4,7 @@ Using word choices to predict group membership
 ## DESCRIPTION
 
 This project trains machine learning models to predict group affiliation from
-social media word choices.  As a test case, the project uses Tweets from
- Republican and Democrat members of congress.
+social media word choices.  As a test case, the project uses Tweets from Republican and Democrat members of congress as a test case, and uses tweets from Canadian members of parliament for comparison.
 
 ## TASKS
 
