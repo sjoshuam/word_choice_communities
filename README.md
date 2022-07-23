@@ -32,18 +32,18 @@ This project is organized into three stages with 9 components per stage.
 
 |   | D1| D2| D3|
 |:- |:- |:- |:- |
-Port|   |   |   |
-Plan| / |   |   |
-Hand|   |   |   |
-Pull|   |   |   |
+Port| / |   |   |
+Plan| X |   |   |
+Hand| X |   |   |
+Pull| X |   |   |
 Mung|   |   |   |
 Trai|   |   |   |
 Test|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|0.5|0.0|0.0|
-Weig| 55| 30| 15|
+Task|3.5|0.0|0.0|
+Weig| 50| 35| 15|
 
 KEY:
 / = Task partly complete.
@@ -51,9 +51,11 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((0.5 * 55) + (0.0 * 30)) / ((0.55 + 0.30) * 9) = 04%
+((3.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 23%
 
 #### Misc. To-Dos and Notes
++ TODO: Make the api query speed limiter more sophisticated
++ NOTE: Data collection will need to be parallelized before it is scaled up
 
 ## SOURCES
 
