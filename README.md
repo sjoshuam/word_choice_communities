@@ -36,13 +36,13 @@ Port| / |   |   |
 Plan| X |   |   |
 Hand| X |   |   |
 Pull| X |   |   |
-Mung|   |   |   |
+Mung| / |   |   |
 Trai|   |   |   |
 Test|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|3.5|0.0|0.0|
+Task|4.0|0.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -51,7 +51,7 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((3.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 23%
+((4.0 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 26%
 
 #### Misc. To-Dos and Notes
 + TODO: Make the api query speed limiter more sophisticated
