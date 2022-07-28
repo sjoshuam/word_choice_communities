@@ -23,7 +23,7 @@ This project is organized into three stages with 9 components per stage.
 + Hand – Gather Twitter handles for congresspersons and comparators
 + Pull - Pull Twitter data from the API
 + Mung - Process Twitter data to format suitable for modeling
-+ Trai – Train Models and tune hyperparameters
++ Trai – Train models and tune hyperparameters
 + Test – Evaluate model performance on test data
 + Show - Generate a poster to visualize and present results
 + Test – Formulate tests to confirm code works as intended.
@@ -36,13 +36,13 @@ Port| / |   |   |
 Plan| X |   |   |
 Hand| X |   |   |
 Pull| X |   |   |
-Mung| / |   |   |
+Mung| X |   |   |
 Trai|   |   |   |
 Test|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|4.0|0.0|0.0|
+Task|4.5|0.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -51,7 +51,7 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((4.0 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 26%
+((4.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 29%
 
 #### Misc. To-Dos and Notes
 + TODO: Make the api query speed limiter more sophisticated
