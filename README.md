@@ -37,12 +37,12 @@ Plan| X |   |   |
 Hand| X |   |   |
 Pull| X |   |   |
 Mung| X |   |   |
-Trai|   |   |   |
+Trai| / |   |   |
 Test|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|4.5|0.0|0.0|
+Task|5.0|0.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -51,11 +51,12 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((4.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 29%
+((5.0 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 9) = 33%
 
 #### Misc. To-Dos and Notes
 + TODO: Make the api query speed limiter more sophisticated
-+ NOTE: Data collection will need to be parallelized before it is scaled up
++ TODO: 
++ NOTE: Data collection will need to be parallelized before it can be recycled at scale
 
 ## SOURCES
 
