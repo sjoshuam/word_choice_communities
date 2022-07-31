@@ -23,8 +23,10 @@ This project is organized into three stages with 9 components per stage.
 + Hand – Gather Twitter handles for congresspersons and comparators
 + Pull - Pull Twitter data from the API
 + Mung - Process Twitter data to format suitable for modeling
-+ Mode – Train models, tune hyperparameters, and test model predictions
-+ Show - Generate a poster to visualize and present results
++ MODE – Find best hyperparameters for each model and fit models
++ Eval - Analyse model performance and interpret models
++ Pptx - Generate briefing visualizations for key results
++ Show - generate poster visualization of the results
 + Test – Formulate tests to confirm code works as intended.
 
 #### Stage x Component Task Tracking Matrix
@@ -36,7 +38,9 @@ Plan| X |   |   |
 Hand| X |   |   |
 Pull| X |   |   |
 Mung| X |   |   |
-Mode| X |   |   |
+Hype| X |   |   |
+Mode|   |   |   |
+Pptx|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
@@ -49,14 +53,12 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((5.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 8) = 40%
+((5.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 32%
 
 #### Misc. To-Dos and Notes
 + NOTE: Data collection will need to be parallelized before it can be recycled at scale
 + TODO: Make the api query speed limiter more sophisticated
-+ TODO: formulate safety code to guarantee directory structure (including B subdirs)
-+ TODO: add f1 to random model
-+ TODO: add _pca suffix to all pickles
++ TODO: formulate safety code to guarantee directory structure
 
 ## SOURCES
 
