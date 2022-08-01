@@ -23,7 +23,7 @@ This project is organized into three stages with 9 components per stage.
 + Hand – Gather Twitter handles for congresspersons and comparators
 + Pull - Pull Twitter data from the API
 + Mung - Process Twitter data to format suitable for modeling
-+ MODE – Find best hyperparameters for each model and fit models
++ Mode – Find best hyperparameters for each model and fit models
 + Eval - Analyse model performance and interpret models
 + Pptx - Generate briefing visualizations for key results
 + Show - generate poster visualization of the results
@@ -38,13 +38,13 @@ Plan| X |   |   |
 Hand| X |   |   |
 Pull| X |   |   |
 Mung| X |   |   |
-Hype| X |   |   |
-Mode|   |   |   |
+Mode| X |   |   |
+Eval| / |   |   |
 Pptx|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|5.5|0.0|0.0|
+Task|6.0|0.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -53,12 +53,13 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((5.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 32%
+((6.0 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 35%
 
 #### Misc. To-Dos and Notes
 + NOTE: Data collection will need to be parallelized before it can be recycled at scale
 + TODO: Make the api query speed limiter more sophisticated
 + TODO: formulate safety code to guarantee directory structure
++ TODO: clean up EVAL03
 
 ## SOURCES
 
