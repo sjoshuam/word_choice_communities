@@ -39,12 +39,12 @@ Hand| X |   |   |
 Pull| X |   |   |
 Mung| X |   |   |
 Mode| X |   |   |
-Eval| / |   |   |
+Eval| X |   |   |
 Pptx|   |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|6.0|0.0|0.0|
+Task|6.5|0.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -53,7 +53,7 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((6.0 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 35%
+((6.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 38%
 
 #### Misc. To-Dos and Notes
 + NOTE: Data collection will need to be parallelized before it can be recycled at scale
@@ -61,6 +61,7 @@ X = Task fully complete.
 + TODO: formulate safety code to guarantee directory structure
 + TODO: clean up EVAL03
 + TODO: fix EVAL04 to use a dictionary instead of a list
++ TODO: integrate new slots into user_data and word data to preserve data normalization
 
 ## SOURCES
 
