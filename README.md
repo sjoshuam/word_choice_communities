@@ -60,6 +60,7 @@ X = Task fully complete.
 + TODO: Make the api query speed limiter more sophisticated
 + TODO: formulate safety code to guarantee directory structure
 + TODO: clean up EVAL03
++ TODO: fix EVAL04 to use a dictionary instead of a list
 
 ## SOURCES
 
