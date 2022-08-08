@@ -40,11 +40,11 @@ Pull| X |   |   |
 Mung| X |   |   |
 Mode| X |   |   |
 Eval| X |   |   |
-Pptx|   |   |   |
+Pptx| X |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|6.5|0.0|0.0|
+Task|7.5|0.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -53,15 +53,15 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((6.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 38%
+((7.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 44%
 
 #### Misc. To-Dos and Notes
 + NOTE: Data collection will need to be parallelized before it can be recycled at scale
 + TODO: Make the api query speed limiter more sophisticated
-+ TODO: formulate safety code to guarantee directory structure
++ TODO: formulate safety code to guarantee directory structure and setting consistency
 + TODO: clean up EVAL03
 + TODO: fix EVAL04 to use a dictionary instead of a list
-+ TODO: integrate new slots into user_data and word data to preserve data normalization
++ TODO: integrate new slots into user_data and word data so that data normalization is maintained
 
 ## SOURCES
 
