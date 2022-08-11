@@ -26,6 +26,7 @@ This project is organized into three stages with 9 components per stage.
 + Mode – Find best hyperparameters for each model and fit models
 + Eval - Analyse model performance and interpret models
 + Pptx - Generate briefing visualizations for key results
++ Topi - Cluster terms and associate clusters with parties
 + Show - generate poster visualization of the results
 + Test – Formulate tests to confirm code works as intended.
 
@@ -40,11 +41,12 @@ Pull| X |   |   |
 Mung| X |   |   |
 Mode| X |   |   |
 Eval| X |   |   |
-Pptx| X |   |   |
+Pptx| X | X |   |
+Topi| / |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|7.5|0.0|0.0|
+Task|8.0|1.0|0.0|
 Weig| 50| 35| 15|
 
 KEY:
@@ -53,7 +55,7 @@ X = Task fully complete.
 
 ## Percent Progress (D1 & D2)
 
-((7.5 * 50) + (0.0 * 35)) / ((0.50 + 0.35) * 10) = 44%
+((8.0 * 50) + (1.0 * 35)) / ((0.50 + 0.35) * 11) = 47%
 
 #### Misc. To-Dos and Notes
 + NOTE: Data collection will need to be parallelized before it can be recycled at scale
