@@ -35,35 +35,33 @@ This project is organized into three stages with 9 components per stage.
 |   | D1| D2| D3|
 |:- |:- |:- |:- |
 Port| / |   |   |
-Plan| X |   |   |
-Hand| X |   |   |
-Pull| X |   |   |
-Mung| X |   |   |
-Mode| X |   |   |
+Plan| X | X |   |
+Hand| X | X |   |
+Pull| X | X |   |
+Mung| X | X |   |
+Mode| X | / |   |
 Eval| X |   |   |
-Pptx| X | X |   |
+Pptx| X | N | N |
 Topi| / |   |   |
 Show|   |   |   |
 Test|   |   |   |
 ----|   |   |   |
-Task|8.0|1.0|0.0|
+Task|8.0|5.5|1.0|
 Weig| 50| 35| 15|
 
 KEY:
 / = Task partly complete.
 X = Task fully complete.
+N = Task N/A
 
 ## Percent Progress (D1 & D2)
 
-((8.0 * 50) + (1.0 * 35)) / ((0.50 + 0.35) * 11) = 47%
+((8.0 * 50) + (5.5 * 35)) / ((0.50 + 0.35) * 11) = 63%
 
 #### Misc. To-Dos and Notes
 + NOTE: Data collection will need to be parallelized before it can be recycled at scale
-+ TODO: Make the api query speed limiter more sophisticated
-+ TODO: formulate safety code to guarantee directory structure and setting consistency
 + TODO: clean up EVAL03
 + TODO: fix EVAL04 to use a dictionary instead of a list
-+ TODO: integrate new slots into user_data and word data so that data normalization is maintained
 
 ## SOURCES
 
